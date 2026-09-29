@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+</head>
+
+<body>
+    <form>
+        <h1 align="center">JOB APPLICATION FORM</h1>
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+            <table cellspacing="10" cellpadding="10">
+                <tr>
+                    <td><label>First Name</label></td>
+                    <td>
+                        <input type="text" placeholder="Enter your first name" required>
+                    </td>
+                    <td><label>Last Name</label></td>
+                    <td>
+                        <input type="text" placeholder="Enter your last name" required>
+                    </td>
+                    <td><label>Date of Birth</label></td>
+                    <td>
+                        <input type="date" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female
+                    </td>
+                    <td><label>Phone Number</label></td>
+                    <td>
+                        <input type="tel" maxlength="10" required>
+                    </td>
+                    <td><label>Email</label></td>
+                    <td>
+                        <input type="email" placeholder="Enter your email" required>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Address Information</b></legend>
+            <table cellspacing="10" cellpadding="10">
+                <tr>
+                    <td><label>Current Location</label></td>
+                    <td>
+                        <input type="text" placeholder="Enter your city">
+                    </td>
+                    <td><label>Preferred Location</label></td>
+                    <td>
+                        <input type="text" placeholder="Preferred job location">
+                    </td>
+                    <td><label>Permanent Address</label></td>
+                    <td>
+                        <textarea rows="4" cols="50" placeholder="Enter your complete address"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Education Information</b></legend>
+            <table cellspacing="10" cellpadding="10">
+                <tr>
+                    <td><label>Highest Qualification</label></td>
+                    <td>
+                        <select required>
+                            <option selected disabled>Select Qualification</option>
+                            <option>B.E.</option>
+                            <option>B.Tech</option>
+                            <option>B.Sc</option>
+                            <option>M.E.</option>
+                            <option>M.Tech</option>
+                            <option>M.Sc</option>
+                        </select>
+                    </td>
+                    <td><label>Specialization</label></td>
+                    <td>
+                        <input type="text" placeholder="Example: Computer Science">
+                    </td>
+                    <td><label>College Name</label></td>
+                    <td>
+                        <input type="text" placeholder="Enter college name">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Graduation Year</label></td>
+                    <td>
+                        <input type="number" placeholder="Year" min="2024" max="2026">
+                    </td>
+                    <td><label>CGPA / Percentage</label></td>
+                    <td>
+                        <input type="text" placeholder="8.5 or 85%">
+                    </td>
+                    <td><label>Backlogs</label></td>
+                    <td>
+                        <input type="number" min="0" placeholder="Number of backlogs">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Technical Skills</b></legend>
+            <table cellspacing="10" cellpadding="10">
+                <tr>
+                    <td><label>Select Skills</label></td>
+                    <td>
+                        <br>
+                        <input type="checkbox" name="skills">Java
+                        <br>
+                        <input type="checkbox" name="skills">JavaScript
+                        <br>
+                        <input type="checkbox" name="skills">Python
+                        <br>
+                        <input type="checkbox" name="skills">React
+                        <br>
+                        <input type="checkbox" name="skills">Spring Boot
+                        <br>
+                        <input type="checkbox" name="skills">MySQL
+                    </td>
+                    <td><label>Other Skills</label></td>
+                    <td>
+                        <input type="text" placeholder="Enter other skills">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Job Information</b></legend>
+            <table cellspacing="10" cellpadding="10">
+                <tr>
+                    <td><label>Position Applied For</label></td>
+                    <td>
+                        <select required>
+                            <option selected disabled>Select Position</option>
+                            <option>Software Developer</option>
+                            <option>Java Developer</option>
+                            <option>Frontend Developer</option>
+                            <option>Backend Developer</option>
+                            <option>Full Stack Developer</option>
+                            <option>Web Developer</option>
+                        </select>
+                    </td>
+                    <td><label>Experience</label></td>
+                    <td>
+                        <input type="radio" name="experience">
+                        Fresher
+                        <input type="radio" name="experience">
+                        Experienced
+                    </td>
+                    <td><label>Expected Salary</label></td>
+                    <td>
+                        <input type="text" placeholder="Example: 3 LPA">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Notice Period</label></td>
+                    <td>
+                        <select>
+                            <option>Immediate</option>
+                            <option>15 Days</option>
+                            <option>30 Days</option>
+                            <option>60 Days</option>
+                            <option>90 Days</option>
+                        </select>
+                    </td>
+                    <td><label>Willing to Relocate?</label></td>
+                    <td>
+                        <input type="radio" name="relocate">Yes
+                        <input type="radio" name="relocate">No
+                    </td>
+                    <td><label>Work Mode</label></td>
+                    <td>
+                        <select>
+                            <option>On-site</option>
+                            <option>Hybrid</option>
+                            <option>Remote</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Project Information</b></legend>
+            <table cellspacing="10" cellpadding="10">
+                <tr>
+                    <td><label>Project Name</label></td>
+                    <td>
+                        <input type="text" placeholder="Enter project name">
+                    </td>
+                    <td><label>Technologies Used</label></td>
+                    <td>
+                        <input type="text" placeholder="Example: React, Java, MySQL">
+                    </td>
+                    <td><label>Project Description</label></td>
+                    <td>
+                        <textarea rows="5" cols="60" placeholder="Describe your project"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Certifications</b></legend>
+            <table cellspacing="10" cellpadding="10">
+                <tr>
+                    <td><label>Certification Name</label></td>
+                    <td>
+                        <input type="text" placeholder="Enter certification">
+                    </td>
+                    <td><label>Issuing Organization</label></td>
+                    <td>
+                        <input type="text" placeholder="Organization name">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Resume & Online Profiles</b></legend>
+            <table cellspacing="10" cellpadding="10">
+                <tr>
+                    <td><label>Upload Resume</label></td>
+                    <td>
+                        <input type="file" accept=".pdf,.doc,.docx" required>
+                    </td>
+                    <td><label>LinkedIn</label></td>
+                    <td>
+                        <input type="url" placeholder="LinkedIn profile URL">
+                    </td>
+                    <td><label>GitHub</label></td>
+                    <td>
+                        <input type="url" placeholder="GitHub profile URL">
+                    </td>
+                    <td><label>Portfolio</label></td>
+                    <td>
+                        <input type="url" placeholder="Portfolio URL">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Cover Letter</b></legend>
+            <textarea rows="7" cols="80" placeholder="Write your cover letter here"></textarea>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Declaration</b></legend>
+            <input type="checkbox" required>
+            <label>
+                I hereby declare that the information provided above
+                is true and correct to the best of my knowledge.
+            </label>
+        </fieldset>
+        <br>
+        <div align="center">
+            <button type="submit">
+                Submit Application
+            </button>
+            <button type="reset">
+                Reset
+            </button>
+        </div>
+    </form>
+</body>
+
+</html>
