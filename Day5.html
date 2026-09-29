@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+</head>
+<body>
+    <form>
+        <!--size,readonly,checked,disabled-->
+        <fieldset>
+            <legend align="center">Student Details</legend>
+        <label>First Name</label>
+        <input type="text" placeholder="Enter your first name" required><br><br>
+        <label>Last Name</label>
+        <input type="text" placeholder="Enter your last name" required><br><br>
+        <label>DOB</label>
+        <input type="date" required><br><br>
+        <label>Phone Number</label>
+        <input type="tel" maxlength="10"><br><br>
+        <label>Gender</label>
+        <input type="radio" value="male" name="gender" required>Male
+        <input type="radio" value="female" name="gender" required>Female<br><br>
+        <label>Email</label>
+        <input type="email" placeholder="Email address" required><br><br>
+        <label>Password</label>
+        <input type="password" placeholder="Password" required><br><br>
+        <label>Select the skills</label><br>
+        <input type="checkbox" name="skills" value="java">Java<br>
+        <input type="checkbox" name="skills" value="python">Python<br>
+        <input type="checkbox" name="skills" value="react">React<br>
+        <input type="checkbox" name="skills" value="js">Javascript<br><br>
+        <select>
+        <option selected>Select any course</option>
+        <option>Java Fullstack Development</option>
+         <option>Python Fullstack Development</option>
+         <option>Data Analyst</option>
+        </select><br><br>
+        <label>Resume</label>
+        <input type="file" multiple accept=".doc,.pdf"><br><br>
+        <label>Address : </label><br>
+        <textarea rolspan="10" colspan="10"></textarea><br><br>
+        <button type="submit">Submit</button>
+        <button type="Reset">Reset</button>
+
+        </fieldset>
+
+
+    </form>
+</body>
+</html>
